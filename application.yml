@@ -1,0 +1,16 @@
+spring:
+    profiles:
+    active:
+    - dev
+---
+spring:
+  application:
+    name: spring_configServer_dev
+  profiles: dev
+server:
+  port: 3344
+---
+spring:
+  application:
+    name: spring_configServer_test
+  profiles: test
